@@ -7,7 +7,7 @@ Configuration
 
 ### Clone repository
 ```
-$ git clone git@github.com:paulocsb/react-rails-api.git.git
+$ git clone git@github.com:paulocsb/react-rails-api.git
 $ cd react-rails-api
 ```
 
