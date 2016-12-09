@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic react client and rails api login form.
 
-Things you may want to cover:
+Configuration
+-------------
 
-* Ruby version
+### Clone repository
+```
+$ git clone git@github.com:paulocsb/react-rails-api.git.git
+$ cd react-rails-api
+```
 
-* System dependencies
+### Run bundle install and Install dependencies React client
+```
+$ bundle install && cd client && npm i && cd ..
+```
 
-* Configuration
+Database
+--------
 
-* Database creation
+### Run database setup
+```
+$ rails db:create && rails db:migrate && rails db:seed
+```
 
-* Database initialization
+Start the Web Server
+--------------------
 
-* How to run the test suite
+### Run server setup
+```
+$ foreman start
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Author
+------
 
-* Deployment instructions
-
-* ...
+* **Paulo Cesar** - [GitHub](https://github.com/paulocsb)
